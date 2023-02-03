@@ -1,7 +1,7 @@
 <template>
   <q-page class="column items-center">
     <h2 class="text-white">
-      An efficient way to read papers and books and take notes
+      Make some changes An efficient way to read papers and books and take notes
     </h2>
     <q-btn
       square
