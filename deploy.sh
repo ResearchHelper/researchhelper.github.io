@@ -1,2 +1,2 @@
 quasar build
-git subtree push --prefix dist/spa origin gh-pages
+git subtree push --prefix dist/spa origin gh-page
