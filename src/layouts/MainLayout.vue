@@ -6,9 +6,18 @@
         <q-toolbar-title> Research Helper </q-toolbar-title>
 
         <q-tabs v-model="tab" no-caps shrink stretch>
-          <q-tab name="download" label="Download" />
-          <q-tab name="github" label="GitHub" />
-          <q-tab name="about" label="About" />
+          <q-route-tab
+            name="github"
+            icon="bi-github"
+            href="https://github.com/ResearchHelper/research-helper"
+            target="_blank"
+          />
+          <q-route-tab
+            name="download"
+            label="Download"
+            href="https://github.com/ResearchHelper/research-helper/releases"
+            target="_blank"
+          />
         </q-tabs>
       </q-toolbar>
     </q-header>

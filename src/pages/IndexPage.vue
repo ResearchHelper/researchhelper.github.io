@@ -9,9 +9,10 @@
       class="bg-primary text-white"
       size="xl"
       style="width: 30%"
-    >
-      Get Research Helper
-    </q-btn>
+      label="Get Research Helper"
+      href="https://github.com/ResearchHelper/research-helper/releases"
+      target="_blank"
+    />
 
     <h2 class="text-white">Features</h2>
     <q-card dark flat style="width: 70%">
