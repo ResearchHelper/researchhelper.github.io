@@ -13,8 +13,13 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v3
 
-      - name: Load dependancies
-        run: yarn
+      - name: Setup Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: 18
+
+      - name: Install dependencies
+        run: npm install
 
       - name: Deploy with gh-pages
         run: |
