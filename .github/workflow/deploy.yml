@@ -10,20 +10,14 @@ on:
 
 jobs:
   deploy:
-    runs-on: ${{ matrix.os }}
-
-    strategy:
-      matrix:
-        os: [ubuntu-latest]
+    runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repo
         uses: actions/checkout@v3
 
-      - name: Setup node
-        uses: actions/setup-node@v3
-        with:
-          node-version: 18
+      - name: Load dependancies
+        run: yarn
 
       - name: Deploy with gh-pages
         run: |

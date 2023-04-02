@@ -9,8 +9,8 @@
     "lint": "eslint --ext .js,.ts,.vue ./",
     "format": "prettier --write \"**/*.{js,ts,vue,scss,html,md,json}\" --ignore-path .gitignore",
     "test": "echo \"No test specified\" && exit 0",
-    "dev": "quasar dev",
-    "predeploy": "quasar build",
+    "dev": "yarn run quasar dev",
+    "predeploy": "yarn run quasar build",
     "deploy": "gh-pages -d dist/spa"
   },
   "dependencies": {
