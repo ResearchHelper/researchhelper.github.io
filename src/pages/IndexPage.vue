@@ -15,6 +15,7 @@
       href="https://github.com/ResearchHelper/research-helper/releases"
       target="_blank"
     />
+
     <q-card
       dark
       flat

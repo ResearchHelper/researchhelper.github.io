@@ -30,7 +30,7 @@
           <q-route-tab
             name="doc"
             :label="$t('documentation')"
-            href=""
+            href="https://researchhelper.github.io/docs.research.helper/"
             target="_blank"
           />
         </q-tabs>
